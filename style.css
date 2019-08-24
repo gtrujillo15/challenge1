@@ -1,0 +1,44 @@
+/* NAVIGATION */
+
+.nav {
+    width: 100%;
+    height: 100px;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 10px #888888;
+}
+
+.navul {
+    text-decoration: none;
+}
+
+.navli {
+    text-decoration: none;
+}
+/* JUMBO PHOTO */
+
+.laptop {
+    background-image: url('../laptop.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+    width: 100%;
+}
+
+/* CONTENT */
+
+.container-fluid {
+    height: 800px;
+    width: 100%;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 100px;
+    box-shadow: 10px 10px 10px 10px #888888;
+}
