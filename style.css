@@ -21,7 +21,7 @@ li a {
 /* JUMBO PHOTO */
 
 .laptop {
-    background: url("../img/laptop.JPG");
+    background: url("https://raw.githubusercontent.com/gtrujillo15/challenge1/master/img/laptop.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 450px;
