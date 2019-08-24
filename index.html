@@ -14,50 +14,97 @@
 
 <body>
 
+    <!-- NAV -->
+
     <nav class="nav">
-        <img src="img/logo.png" alt="Logo for Brew Design" class="logo">
+        <a href="index.html"><img src="img/logo.png" alt="Logo for Brew Design" class="logo"></a>
         <li><a class="nav-link" href="#">Home</a></li>
-        <li><a class="nav-link active" href="#">UX/UI Design</a></li>
+        <li><a class="nav-link active" href="index.html">UX/UI Design</a></li>
         <li><a class="nav-link" href="#">Contact</a></li>
     </nav>
 
-
+    <!-- PHOTO -->
 
     <div class="laptop"></div>
 
+    <!-- MAIN CONTENT -->
+
     <div class="container-fluid">
         <div class="head-content">
-        <h1 class="text txthead">UX/UI Design</h1>
-        <h1 class="text texthead">What is it?</h1><br>
-        <h2 class="text">UX stands for User Experience</h2>
-        <h2 class="text">UI stands for User Interface</h2><br><br>
-</div>
-<div class="main-content">
-        <p>UX Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur expedita praesentium nihil
-            reprehenderit omnis, placeat dicta fuga soluta odio, quisquam minus fugit nobis, ipsa dolor adipisci quae
-            neque repudiandae? Officia adipisci veritatis, fuga similique illo alias dicta nisi quia excepturi et.
-            Consectetur eos praesentium culpa, officia quas magni facilis inventore.</p><br>
-        <p>UI Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum tempora dolores ratione minima voluptate
-            ducimus debitis saepe error aliquid deleniti! Maxime at a ratione nesciunt fugiat facilis omnis, nam vero
-            consectetur obcaecati? Et ex inventore vero necessitatibus. Mollitia tempore, tempora praesentium dolor
-            adipisci reprehenderit repudiandae reiciendis maxime. Odio, maiores nisi.</p>
-            </div>
-    </div>
-
-    <footer>
-        <div class="social-media">
-            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x"></i>
-                <span class="hidden-xs"></span></a>
-
-            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-3x"></i>
-                <span class="hidden-xs"></span></a>
-
-            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x"></i>
-                <span class="hidden-xs"></span></a>
+            <h1 class="text txthead">UX/UI Design</h1>
+            <h1 class="text texthead">What is it?</h1><br>
+            <h2 class="text">UX stands for User Experience</h2>
+            <h2 class="text">UI stands for User Interface</h2><br><br>
         </div>
-    </footer>
+        <div class="main-content">
+            <p>UX focuses on ease of usability and the overall user experience. We strategize on wireframing and
+                prototyping to ensure users can easily find what you need them to know and how your firm operates on
+                receiving/informing clients. We find it critical to ensure user satisfaction meets expectations and
+                excels by providing an enjoyable experience. Upon execution, we can also continue to work with you by
+                adopting methods of collecting customer feedback to continue to ensure ease of usability.
+            </p><br>
+            <p>UI works in hand with UX design by establishing a pleasant look and feel to your product. We can help
+                with color schemes and typography to fit with your firms branding. Haven't developed a brand? No
+                worries, we can also work with you to provide graphic and visual design along wit branding skills to
+                help you create a look that'll help you stand out. </p><br>
+            <p>UX and UI work together closely to ensure users are able to have an enjoyable experience when viewing
+                your services and how they can receive help. </p><br>
+            <h3>Interested in working with us? Have more questions?</h3>
+            <h4>Click below to contact us</h4><br>
 
-    <script src="script.js"></script>
+            <!-- CONTACT BUTTON -->
+
+            <button type="button" class="btn btn-light" id="myBtn">Contact Us</button>
+        </div>
+
+        <!-- CONTACT MODAL -->
+
+        <div id="myModal" class="modal">
+
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h4>Please provide your name, email, and firm. We'll be in touch!</h4><br>
+                <form action="/action_page.php">
+                    Name:
+                    <input type="text" name="firstname">
+                    <br><br>
+                    Email:
+                    <input type="text" name="email">
+                    <br><br>
+                    Law Firm:
+                    <input type="text" name="lawfirm">
+                    <br><br><br>
+                    <button type="button" class="btn btn-outline-secondary" value="button" id="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- THANK YOU MODAL -->
+
+        <div id="myModalThankYou" class="modal">
+
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h4>Thank you!</h4><br>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+
+        <footer>
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x"></i>
+                    <span class="hidden-xs"></span></a>
+
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-3x"></i>
+                    <span class="hidden-xs"></span></a>
+
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x"></i>
+                    <span class="hidden-xs"></span></a>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
 </body>
 
 </html>
