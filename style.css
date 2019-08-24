@@ -20,7 +20,7 @@ li a {
 /* JUMBO PHOTO */
 
 .laptop {
-    background-image: url('../laptop.jpg');
+    background-image: url('../laptop.JPG');
     background-size: cover;
     background-attachment: fixed;
     height: 450px;
