@@ -44,12 +44,17 @@ li a {
     font-weight: bold;
 }
 
+.main-content {
+    background-color: #e6e6e6;
+}
+
 p {
     padding-left: 20%;
     padding-right: 20%;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
 }
+
 
 /* FOOTER */
 
