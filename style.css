@@ -32,6 +32,10 @@
     color: black;
 }
 
+.nav-link {
+    font-family:'Raleway', sans-serif;
+}
+
 /* NAVIGATION */
 
 .nav {
@@ -65,10 +69,14 @@ li a {
     width: 100%;
 }
 
+.head-content {
+    margin-top: 2%;
+}
+
 .main-content {
     background-color: #e6e6e6;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .whiteout {
@@ -119,7 +127,7 @@ li a {
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 30%;
+    width: 50%;
 }
 
 .close {
