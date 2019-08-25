@@ -119,20 +119,26 @@ li a {
 
 .sitemap {
     height: 400px;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.userflow {
+    height: auto;
     width: 50%;
     margin-left: 25%;
 }
 
-.graphicdesign {
+/* .graphicdesign {
     height: 400px;
     width: 50%;
     margin-left: 25%;
-}
+} */
 
 .whiteout {
     background-color: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 /* CONTACT FORM */
