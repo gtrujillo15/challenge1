@@ -104,6 +104,11 @@ p {
     margin-left: 10%;
 }
 
+.resources {
+    color: black;
+    margin-left: 35%
+}
+
 /* CONTACT FORM */
 
 form {
