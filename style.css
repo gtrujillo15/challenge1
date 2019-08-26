@@ -166,3 +166,47 @@ footer {
     padding: 3%;
     color: #595959;
 }
+
+/* Media Queries */
+
+@media (max-width: 502px) {
+    .logo {
+        height: 150px;
+    }
+    
+    .sitemap {
+        height: 234px;
+        width: 201px;
+    }
+
+    .btn-light {
+        margin-left: 35%;
+    }
+
+    .resources {
+        margin-left: 5%;
+    }
+
+    .modal-content {
+        width: 84%;
+    }
+
+    .social-media {
+        margin-left: 27%;
+    }
+}
+
+@media (max-width: 452px) {
+    .logo {
+        height: 100px;
+    }
+    
+    .laptop {
+        background: url("https://raw.githubusercontent.com/gtrujillo15/challenge1/master/img/laptop.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: right 10px top 10px;
+        height: 450px;
+        width: 100%;
+    }
+}
